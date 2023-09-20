@@ -1,0 +1,21 @@
+body {
+    background-color: #000000f5;
+}
+
+#mainlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    
+}
+
+#google {
+    
+    width: 300px;
+    
+}
+
+#searchArea {
+    
+}
