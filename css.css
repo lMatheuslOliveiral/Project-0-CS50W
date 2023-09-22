@@ -4,6 +4,7 @@ body {
 
 #mainlogo {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 50vh;
@@ -11,11 +12,36 @@ body {
 }
 
 #google {
-    
     width: 300px;
     
 }
 
-#searchArea {
+#search-box {
+    display: flex;
+    align-items: center;
+
+    width: 450px;
+    margin-top: 10px;
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: transparent;
+
     
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+
+    background-image: url(images/loupe.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+
+
+    color: aliceblue;
 }
